@@ -10,8 +10,8 @@ def naver_OCR_api(frame):
 		img= base64.b64encode(f.read()) #아래에서 decode하기 위해서는 여기서 encode를 해줘야한다.
 		
 		#URL와 KEY는 Naver Clova OCR API를 사용하고자 할 때 웹사이트에서 알려준다.
-		URL = "https://2ecb2f2b9c79470cb77f7337f747a291.apigw.ntruss.com/custom/v1/11062/29b707430fc943cd49355417e654eb3515a843d362b418100ec3a70729453661/general"
-		KEY = "WmxoWHpja2xFSmVYcWVRblBGU3FBT0xmd2hIalVwUFQ="
+		URL = "your url"
+		KEY = "your key"
 
 		#JSON형태는 데이터를 송수신할 때 주로 쓰이는데 headers와 body부분으로 나뉜다. 이 형태는 인터넷에서 찾을 수 있고 원하는 방식으로 수정시켜주면된다.
 		headers = {
